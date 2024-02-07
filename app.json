@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Basbus Yönetici",
+    "slug": "basbus-managment",
+    "privacy": "unlisted",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "basbus-managment",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pama.basbus.managment",
+      "buildNumber": "1.0.1",
+      "config": {
+        "googleMapsApiKey": "AIzaSyA1X97PZySCjvxxVqs4mgaaYeuE34wYbJM"
+      },
+      "infoPlist": {
+        "NSLocationUsageDescription": "Basbus servisin yerini belirlemek için konum verisini kullanır.",
+        "NSLocationWhenInUseUsageDescription": "Basbus servisin yerini belirlemek için konum verisini kullanır.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Uygulama arka planda olduğunda bile konum gerektirir.",
+        "NSLocationAlwaysUsageDescription": "Uygulama arka planda olduğunda bile konum gerektirir.",
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBtB1c-tAuXMfVVIzQu43xfDdQCGpU3tio"
+        }
+      },
+      "package": "com.pama.basbus.managment",
+      "versionCode": 18
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ca59c18a-a7e9-428a-a325-3b6e538f2bee"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+export interface Shuttle {
+    AvaregeTime: string,
+    CarNumberPlate: string,
+    Direction: string,
+    DriverId: string,
+    Organisation: string,
+    Passengers: string,
+    Remember: string,
+    Route: string,
+    Id: string,
+    ShuttleName: string,
+    ShuttleTime: string,
+    UserName: string,
+    Status: string,
+    ImageUrl: string,
+}
